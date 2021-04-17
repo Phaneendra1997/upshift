@@ -1,0 +1,270 @@
+*{
+	box-sizing:border-box;
+}
+
+.logo{
+	
+	
+	
+}
+
+.cname {
+	height:100px;
+	background-color:#040000;
+	text-align:center;
+	padding-top:30px;
+	padding-left:15px;
+	font-size:30px;
+	color:#E61407;
+	font-family:'Zen Dots', cursive;
+	
+	
+}
+
+
+.menu{
+		background-color:#040000;
+		height:50px;
+		
+		text-align:center;
+		padding-top:15px;
+		font-size:15px;
+		box-shadow:3px 3px rgb(223, 149, 144);
+		
+		
+}
+.menu a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	
+}
+
+.menu:hover{
+		background-color:#E61407;
+		
+}
+
+	@keyframes myanim{
+		
+		from{background-color:#040000;left:0px;top:0px;}
+		to{background-color:#E61407;left:100%;top:0px;}
+		
+	}
+.banner{
+	
+	height:600px;
+	margin-top:5px;
+	background-image:url('../photos/banner2.jpg');
+	background-attachment:fixed;
+	box-sizing:border-box;
+	text-align:center;
+	font-size:60px;
+	color:#E61407 ;
+	font-family:Papyrus;
+	font-weight:bold;
+	padding-top:250px;
+		
+}
+
+.section_banner{
+	height:70px;
+	background-color:#E61407;
+	margin-top:2px;
+	font-size:25px;
+	font-family:'Zen Dots', cursive;
+	font-weight:bold;
+	text-align:center;
+	padding-top:25px;
+	color:black;
+	box-shadow:5px 5px rgb(223, 149, 144);
+	margin-bottom:10px;
+	
+}
+
+.ab_content{
+	
+	text-align:justify;
+	font-family:'Zen Dots', cursive;
+	font-size:20px;
+}
+
+.brands p{
+	text-align:left;
+	font-family:'Zen Dots', cursive;
+	font-size:20px;
+	padding-left:5px;
+}
+
+.brands{
+	padding-left:100px;
+	
+}
+
+.project h2{
+	text-align:center;
+}
+
+.project{
+	text-align:justify;
+}
+
+ .add h2{
+	 padding-top:5px;
+	text-align:center;
+}
+
+.add{
+	text-align:justify;
+}
+
+.footer{
+	height:200px;
+	background-image:url('../photos/footerbackground.jpg');
+	background-attachment:fixed;
+	
+	font-size:20px;
+	font-family:Papyrus;
+	font-weight:bold;
+	text-align:center;
+	padding-top:15px;
+	color:white;
+	box-shadow:5px 5px rgb(223, 149, 144);
+	margin-bottom:10px;
+}
+	
+	p{
+		font-size:20px;
+		font-family:'Zen Dots', cursive;
+	}
+.cvbanner h2{
+	
+	text-align:center;
+	font-size:45px;
+	color:#500803;
+	font-family:Papyrus;
+	font-weight:bold;
+	
+	padding-top:20px;
+	margin:5px;
+	z-index:1;
+	
+	
+	
+}
+
+
+
+.cvbanner{
+	height:600px;
+	position:relative;	
+	overflow:hidden;
+	width:100%;
+	display:flex;
+	padding-top:80px;
+	
+	justify-content:center;
+	opacity:0.92;
+	
+		
+}
+
+.video-container{
+	position: absolute;
+	top:5px;
+	left:0;
+	width:100%;
+}
+
+.contact_banner{
+	height:70px;
+	background-color:#E61407;
+	margin-top:2px;
+	font-size:25px;
+	font-family:'Zen Dots', cursive;
+	font-weight:bold;
+	text-align:center;
+	padding-top:25px;
+	color:black;
+	box-shadow:5px 5px rgb(223, 149, 144);
+	margin-bottom:10px;
+	
+}
+
+.abanner{
+	
+	height:1000px;
+	margin-top:2px;
+	background-image:url('../photos/4439.jpg');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	box-sizing:border-box;
+	text-align:center;
+	font-size:45px;
+	color:#E61407 ;
+	font-family:Papyrus;
+	
+	padding-top:100px;
+		
+}
+.amenu b{
+		background-color:#E61407;
+		height:50px;
+		
+		text-align:center;
+		padding-top:15px;
+		font-size:15px;
+		box-shadow:3px 3px rgb(223, 149, 144);
+		text-decoration:none;
+		color:white;
+		display:block;
+}
+	
+	#myVideo {
+  position: static;
+  border: 300px solid
+  align:center;
+  width:1000px;
+  
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.bname {
+	height:100px;
+	background-color:#040000;
+	text-align:center;
+	padding-top:30px;
+	margin-top:5px;
+	font-size:30px;
+	color:#E61407;
+	font-family:'Zen Dots', cursive;
+}
+
+.breview{
+	height:350px;
+	color:white;
+	background-color:#040000;
+	text-align:justify;
+	padding-right:10px;
+	padding-left:10px;
+	
+}
+.breview h2{
+	text-align:center;
+	color:#E61407
+}
+
+.breview a{
+		margin-top:100px;
+		background-color:#E61407;
+		height:50px;
+		font-family:'Zen Dots', cursive;
+		text-align:center;
+		padding-top:15px;
+		font-size:20px;
+		box-shadow:3px 3px rgb(223, 149, 144);
+		text-decoration:none;
+		color:white;
+		display:block;
+}
